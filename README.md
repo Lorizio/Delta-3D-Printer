@@ -13,4 +13,4 @@ Best results using simple clay from any DIY store :
 300gr Clay for 0.05 liter of water
 Air Pressure : It depends on the extruder, test between 0 atm to 2 atm. The dryer the printing material, the higher the pressure.
 
-Use Repetier Host to connect to the printer and slice the STL shapes with Slic3r. Settings screenshots upcoming.
+Use Repetier Host to connect to the printer and slice the STL shapes with Slic3r. Settings screenshots to come.
