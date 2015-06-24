@@ -4,19 +4,37 @@
 
 
 ## Project description
-Façonner le monde de mille façon, être l'architecte de son environnement, tel est l'esprit de l'impression 3D. L'engouement récent pour ce type d'impression moderne a créé un phénomène qui ne cesse de grandir, augmentant chaque jour le nombre de passionnés sur le web cherchant à améliorer, perfectionner, et partager leur savoir sur ce nouveau moyen de création innovant.
-Ce projet est l'un des nombreux qui participe à l'élaboration et au questionnement de l'impression 3D. 
+Model the world in a thousands possible ways, being the architect of your environment, those are the idea of 3D printing. The recent buzz for this type of modern printing created a real phenomenon supported by countless enthusiasts, with a constant growing community trying to improve and share their knowledge about this new innovating mean of creation.
+This project is one of the many that participates to the elaborated questioning of 3D printing. It investigates the art power of such a complex machinery and confirms the renaissance of third millennium craftsmen. This project gives the hints for building a homemade Delta Printer. Using clay and a common air compressor it is possible to design complex shapes effortless. 
+[Jonathan Keep's work](http://www.keep-art.co.uk/index.htm) was a good support and I thank him a lot.
 
 ## Repository content
-This project gives the hints for building a homemade Delta Printer. Using clay and a common air compressor it is possible to design complex shapes effortless. A list of the required componenents with a corresponding URL for easy internet finding is available. The firmware must be [adapted](http://www.repetier.com/documentation/repetier-firmware/rf-installation/) to match your personal 3D Delta printer size if they differ from the foresaid list.
+There are three main topics :
+* **Building**
+Building a delta 3D printer from scratch, create the necessary components, connect the electronics together and the power connection configuration.
+* **Software**
+The drivers, the communication tools between the computer and the printer, the firmware, the required softwares, the slicing of objects and the settings of the printer.
+* **Printing Material**
+Some requirements and guidelines about printing material.
 
-Delta printers are accurate and are the source of an infinite number of unique creations. They allow a large quantity of mouvements and their space path are well defined thanks to plenty of enthousiasts on the web who create every day simpler tools and more accessible ideas.
+ A list of the required components with a corresponding URL for easy internet finding is available (see __what-you-need.odt__), for a total price of less than 300$.
+ 
+### Process
+ 
+ The whole process is the following :
+ 
+ 1. Build the printer 
+ 2. Connect the electronics
+ 3. Set up the firmware
+ 4. Set up the printer settings
+ 5. Print
+ 
+ Building the printer implies dealing with soldering wires. Corresponding tools are thus needed. A laser cut machine can come in handy to facilitate the process of cutting MDF panels.
+ 
+ The two key links of the above string are the firmware and the printer settings : 
+ - The firmware must be adapted to correspond to the printer dimensions such as the length of the arms and the possible angle of some particular parts. This is done using Arduino (see [Software](https://github.com/Lorizio/Delta-3D-Printer/tree/master/software)). More details [here](http://www.repetier.com/firmware/v091/) and [here](http://www.repetier.com/documentation/repetier-firmware/rf-installation/). 
+ - The printer settings must match the capacity of the printer (Speed and size amongst others). 
+ 
+_If the printer you are dealing with is essentially the same as the one in here (i.e. was made using the provided list) you shouldn't have to configure anything._
 
-The Mega Set gathers everything we need to build a complex machine accesible to anybody.
 
-Best results using simple clay from any DIY store :
-
-300gr Clay for 0.05 liter of water
-Air Pressure : It depends on the extruder, test between 0 atm to 2 atm. The dryer the printing material, the higher the pressure.
-
-Use Repetier Host to connect to the printer and slice the STL shapes with Slic3r. Settings screenshots to come.
