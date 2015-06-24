@@ -1,7 +1,7 @@
 # Instructions
 
 ## Structure
-(https://github.com/Lorizio/Delta-3D-Printer/blob/master/img/parts.jpg)
+![ALT TEXT](https://github.com/Lorizio/Delta-3D-Printer/blob/master/img/parts.jpg)
 
 You can find the DXF files as blueprints in the DXF_files folder (credits to John Nicholson). They are very useful, specially if you can benefit the use of a laser cut machine. Use them to cut the MDF panels.
 
@@ -14,7 +14,7 @@ https://www.youtube.com/watch?v=MYd_AmkCWfM
 ### Endstops
 Take the wires from the Ultra Set labeled "ENDSTOP". You can cut the red ones out. 
 
-[img]
+![ALT TEXT](https://github.com/Lorizio/Delta-3D-Printer/blob/master/img/Endstops.png)
 
 For each endstop, connect the blue wire to the endstop tip labeled normally closed (NC), and connect the black wire to the endstop tip labeled (COM).
 
@@ -44,9 +44,9 @@ When facing the Arduino board, you should see the power socket in the bottom lef
 
 (photos credits to Jonathan Keep)
 
-[img]
+![ALT TEXT](https://github.com/Lorizio/Delta-3D-Printer/blob/master/img/Build_board2.jpg)
 
-[img]
+![ALT TEXT](https://github.com/Lorizio/Delta-3D-Printer/blob/master/img/Build_board1.jpg)
 
 Connect the thermostat in the T0 location, just under the endstops pin.
 Finally connect the two large cables between the LCD screen and the L shaped board, and put the SD card in behind the LCD screen.
