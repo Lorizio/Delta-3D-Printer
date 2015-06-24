@@ -71,9 +71,10 @@ To do so, do the following :
 1. __Import the object__. In the right panel, select the first tab labelled "Object Placement". Import the desired shape to print using the "+" button. You can import any STL file and make them bigger, crop them and move them as you want. 
 2. __Slice it__. In the third panel labelled "Slicer", hit the big button called "Slice with Slic3r". 
 	* The fourth tab should then open and display the time it will take for the printer to print the object and some other informations.
+**_Be ready to push the __Reset__ button on the Arduino board in case of any unwanted behaviour due to bad settings_**
 3. __Launch it__. Hit the "Play" button and watch your printer moving.
 
-**_Be ready to push the __Reset__ button on the Arduino board in case of any unwanted behaviour due to bad settings_**
+
 
 ## Shapes
 
