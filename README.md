@@ -15,7 +15,7 @@ Building a delta 3D printer from scratch, create the necessary components, conne
 * **Software**.
 The drivers, the communication tools between the computer and the printer, the firmware, the required softwares, the slicing of objects and the settings of the printer.
 * **Printing Material**.
-Some requirements and guidelines about printing material.
+Some requirements and guidelines about printing with clay.
 
  A list of the required components with a corresponding URL for easy internet finding is available (see __what-you-need.odt__), for a total price of less than 300$.
  
@@ -32,8 +32,8 @@ Some requirements and guidelines about printing material.
  Building the printer implies dealing with soldering wires. Corresponding tools are thus needed. A laser cut machine can come in handy to facilitate the process of cutting MDF panels.
  
  The two key links of the above string are the firmware and the printer settings : 
- - The firmware must be adapted to correspond to the printer dimensions such as the length of the arms and the possible angle of some particular parts. This is done using Arduino (see [Software](https://github.com/Lorizio/Delta-3D-Printer/tree/master/software)). More details [here](http://www.repetier.com/firmware/v091/) and [here](http://www.repetier.com/documentation/repetier-firmware/rf-installation/). 
- - The printer settings must match the capacity of the printer (Speed and size amongst others). 
+* The firmware must be adapted to correspond to the printer dimensions such as the length of the arms and the possible angle of some particular parts. This is done using Arduino (see [Software](https://github.com/Lorizio/Delta-3D-Printer/tree/master/software)). More details [here](http://www.repetier.com/firmware/v091/) and [here](http://www.repetier.com/documentation/repetier-firmware/rf-installation/). 
+ * The printer settings must match the capacity of the printer (Speed and size amongst others). 
  
 _If the printer you are dealing with is essentially the same as the one in here (i.e. was made using the provided list) you shouldn't have to configure anything._
 
