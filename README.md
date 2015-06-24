@@ -6,7 +6,11 @@
 ## Project description
 Model the world in a thousands possible ways, being the architect of your environment, those are the ideas of 3D printing. The recent buzz for this type of modern printing created a real phenomenon supported by countless enthusiasts, with a constant growing community trying to improve and share their knowledge about this new innovating mean of creation.
 This project is one of the many that participates to the elaborated questioning of 3D printing. It investigates the art power of such a complex machinery and confirms the renaissance of third millennium craftsmen. This project gives the hints for building a homemade Delta Printer. Using clay and a common air compressor it is possible to design complex shapes effortless. 
-[Jonathan Keep's work](http://www.keep-art.co.uk/index.htm) was a good support and I thank him a lot.
+
+This printer is powered by a single Arduino board and a manually controlled air compressor to extrude the printing material. Three axis on which are sliding three mounters support the extruder at the center. There is one motor per axis, positioned at the top. This printer makes use of 3 endstops to calibrate itself before every printing. They are positioned at the top of each axis under the motors.
+
+[Jonathan Keep's work](http://www.keep-art.co.uk/index.htm) was a very good support and I thank him a lot.
+
 
 ## Repository content
 There are three main topics :

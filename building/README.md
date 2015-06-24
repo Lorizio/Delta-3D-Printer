@@ -5,20 +5,16 @@
 
 You can find the DXF files as blueprints in the DXF_files folder (credits to John Nicholson). They are very useful, specially if you can benefit the use of a laser cut machine. Use them to cut the MDF panels.
 
-Watch Jonathan Keep's video to have an idea of how to assemble every parts together.
-https://www.youtube.com/watch?v=MYd_AmkCWfM
+Watch Jonathan Keep's [video](https://www.youtube.com/watch?v=MYd_AmkCWfM) to have an idea of how to assemble every parts together.
+
 
 
 ## Electronics
 
 ### Endstops
-Take the wires from the Ultra Set labeled "ENDSTOP". You can cut the red ones out. 
-
 ![ALT TEXT](https://github.com/Lorizio/Delta-3D-Printer/blob/master/img/Endstops.png)
 
-For each endstop, connect the blue wire to the endstop tip labeled normally closed (NC), and connect the black wire to the endstop tip labeled (COM).
-
-Connect the 3 sets of wires as the following :
+Take the wires from the Ultra Set labeled "ENDSTOP". You can cut the red ones out. For each endstop, connect the blue wire to the endstop tip labeled normally closed (NC), and connect the black wire to the endstop tip labeled (COM).
 
 ### Motors
 Take the wires from the Ultra Set labeled "MOTOR" and solder each wire with each matching color wire of the step motor.
@@ -32,7 +28,7 @@ On the Arduino Board you need to configure the motor component. Jonathan Keep gi
 The Ultra Set supply a very small and thin thermostat. Take the wires labeled "THERM" and solder them to the thermostat. This is necessary as the Ultra Set was thought to work with hot material and has mandatory security check systems. 
 
 ### Arduino board connections
-Take from the Ultra Set the following :
+Take the following from the Ultra Set :
 
 - LCD screen
 - SD Card

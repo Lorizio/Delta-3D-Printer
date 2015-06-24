@@ -2,7 +2,7 @@
 
 ## Driver and important steps
 Connect the Arduino board to your computer. Running Windows, it should finish install itself after 2 minutes without you needing to do anything in particular (make sure you are connected to Internet so that Windows Update can download the driver). 
-_If you Windows is displaying any error when connecting the board you will need to manually install the driver. Check the Arduino website for more informations._
+_If Windows is displaying any error when connecting the board you will need to manually install the driver. Check the Arduino website for more informations._
 
 For later use **you need to know which COM port was the Arduino board installed on**. You can find this information checking the properties of the board in the "Devices and Printers" from the Control Panel. Write it down. For example, mine was installed using the port COM3.
 
@@ -25,7 +25,7 @@ If the dimension of your printer do not match the components given in the provid
 You won't be needing Arduino anymore unless you want to adjust some settings about the printer dimensions and endstops configuration.
 
 ### Slicing and sending
-The extruder of the printer needs to follow a path in space. This path is computed by a software called a __slicer__. Repetier Host is a powerful software that integrates such a tool (Slic3r).
+The extruder of the printer needs to follow a path in space. This path is defined by a software called a __slicer__. Repetier Host is a powerful software that integrates such a tool (Slic3r).
 
 _We need to configure Repetier Host and Slic3r_:
 
@@ -34,6 +34,7 @@ First of all, open Repetier Host.
 #### Repetier Host
 Hit CTRL+P to open the printer settings (or click on "Configuration" in the menu and select "Printer settings"). Enter a name for your printer in the top textbox and copy the settings from the following screenshots :
 
+__Note that the Port number might not be the same for you__
 ![ALT TEXT](https://github.com/Lorizio/Delta-3D-Printer/blob/master/img/Connection.JPG)
 ![ALT TEXT](https://github.com/Lorizio/Delta-3D-Printer/blob/master/img/Printer.JPG)
 ![ALT TEXT](https://github.com/Lorizio/Delta-3D-Printer/blob/master/img/Extruder.JPG)
@@ -57,23 +58,24 @@ You can close the Slic3r window.
 ### It's alive
 Your printer should be ready to use if you followed all the steps mentioned above. Close Arduino and Repetier Host, disconnect the board from your computer.
 
-To make sure everything works as expected always do the following when using the printer:
-1. Connect the USB cable from the Arduino board
-* The board should light up.
+To make sure everything works as expected always do the following when using the printer :
+1. Connect the USB cable from the Arduino board. The board should light up.
 2. Connect the power cable of the board to current (you might want to use a multi-socket plug with an ON/OFF button).
 3. Launch Repetier Host.
 4. Use the button "Connect" in the top left corner to connect to the printer. It should turn green when successfully connected.
 
-You are now ready to print some 3D files in the STL format (see "Shapes" section below).
-To do so, do the following :
+
+You are now ready to test the printer behaviour.
+Prepare your extruder and connect it the pipe of the air compressor. Leave it closed and install it in the printer to simulate a real printing.
+
+Proceed with the following :
 
 0. __Connect to the printer__. In the main Repetier Host window, check that you are connected to the printer by verifying that the "Connect" button is green. If it's not, follow the latter advice.
 1. __Import the object__. In the right panel, select the first tab labelled "Object Placement". Import the desired shape to print using the "+" button. You can import any STL file and make them bigger, crop them and move them as you want. 
-2. __Slice it__. In the third panel labelled "Slicer", hit the big button called "Slice with Slic3r". 
-	* The fourth tab should then open and display the time it will take for the printer to print the object and some other informations.
-3. __Launch it__. Hit the "Play" button and watch your printer moving.
+2. __Slice it__. In the third panel labelled "Slicer", hit the big button called "Slice with Slic3r". The fourth tab should then open and display the time it will take for the printer to print the object and some other informations.
+3. __Launch it__. Hit the "Play" button and watch your printer move.
 
-**_Be ready to push the __Reset__ button on the Arduino board in case of any unwanted behaviour due to bad settings_**
+**_Be ready to push the RESET button on the Arduino board in case of any unwanted behaviour due to bad settings_**
 
 ## Shapes
 You should be able to print almost any kind of shapes depending on your extruder precision.
