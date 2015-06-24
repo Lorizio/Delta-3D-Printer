@@ -10,11 +10,11 @@ This project is one of the many that participates to the elaborated questioning 
 
 ## Repository content
 There are three main topics :
-* **Building**
+* **Building**.
 Building a delta 3D printer from scratch, create the necessary components, connect the electronics together and the power connection configuration.
-* **Software**
+* **Software**.
 The drivers, the communication tools between the computer and the printer, the firmware, the required softwares, the slicing of objects and the settings of the printer.
-* **Printing Material**
+* **Printing Material**.
 Some requirements and guidelines about printing material.
 
  A list of the required components with a corresponding URL for easy internet finding is available (see __what-you-need.odt__), for a total price of less than 300$.
