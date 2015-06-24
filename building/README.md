@@ -55,5 +55,5 @@ Finally connect the two large cables between the LCD screen and the L shaped boa
 ### Power supply
 Cut the end of the XBOX power brick and connect the wires as the following :
 
-(https://github.com/Lorizio/Delta-3D-Printer/blob/master/img/Board_alimentation.jpg)
+![ALT TEXT](https://github.com/Lorizio/Delta-3D-Printer/blob/master/img/Board_alimentation.jpg)
 
