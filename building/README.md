@@ -1,7 +1,7 @@
 # Instructions
 
 ## Structure
-[IMAGE ALT TEXT](https://github.com/Lorizio/Delta-3D-Printer/blob/master/img/parts.jpg)
+(https://github.com/Lorizio/Delta-3D-Printer/blob/master/img/parts.jpg)
 
 You can find the DXF files as blueprints in the DXF_files folder (credits to John Nicholson). They are very useful, specially if you can benefit the use of a laser cut machine. Use them to cut the MDF panels.
 
@@ -54,4 +54,6 @@ Finally connect the two large cables between the LCD screen and the L shaped boa
 
 ### Power supply
 Cut the end of the XBOX power brick and connect the wires as the following :
+
+(https://github.com/Lorizio/Delta-3D-Printer/blob/master/img/Board_alimentation.jpg)
 
