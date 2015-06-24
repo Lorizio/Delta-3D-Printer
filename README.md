@@ -31,7 +31,7 @@ Some requirements and guidelines about printing with clay.
  2. Connect the electronics
  3. Set up the firmware
  4. Set up the printer settings
- 5. Print
+ 5. Print.
  
  Building the printer implies dealing with soldering wires. Corresponding tools are thus needed. A laser cut machine can come in handy to facilitate the process of cutting MDF panels.
  
