@@ -1,8 +1,8 @@
 # Delta 3D Printer
 
 [Video](https://vimeo.com/131369209)
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
-![alt text](https://github.com/slakri/Study-and-development-of-a-prototype-of-immaterial-architecture-reverse-printing-machine/blob/master/img/foam.png "Different foam sculptures")
+[![IMAGE ALT TEXT](https://github.com/Lorizio/Delta-3D-Printer/blob/master/img/Video.png)](https://vimeo.com/131369209)
+
 
 ## Project description
 Façonner le monde de mille façon, être l'architecte de son environnement, tel est l'esprit de l'impression 3D. L'engouement récent pour ce type d'impression moderne a créé un phénomène qui ne cesse de grandir, augmentant chaque jour le nombre de passionnés sur le web cherchant à améliorer, perfectionner, et partager leur savoir sur ce nouveau moyen de création innovant.
