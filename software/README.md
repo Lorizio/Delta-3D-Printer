@@ -72,7 +72,8 @@ To do so, do the following :
 2. __Slice it__. In the third panel labelled "Slicer", hit the big button called "Slice with Slic3r". 
 	* The fourth tab should then open and display the time it will take for the printer to print the object and some other informations.
 3. __Launch it__. Hit the "Play" button and watch your printer moving.
-* **_Be ready to push the __Reset__ button on the Arduino board in case of any unwanted behaviour due to bad settings_**
+
+**_Be ready to push the __Reset__ button on the Arduino board in case of any unwanted behaviour due to bad settings_**
 
 ## Shapes
 
