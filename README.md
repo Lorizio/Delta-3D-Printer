@@ -1,6 +1,7 @@
 # Delta 3D Printer
 
-[Video](https://vimeo.com/131369209)
+VM("https://vimeo.com/131369209", print = TRUE)
+
 [![IMAGE ALT TEXT](https://github.com/Lorizio/Delta-3D-Printer/blob/master/img/Video.png)](https://vimeo.com/131369209)
 
 
